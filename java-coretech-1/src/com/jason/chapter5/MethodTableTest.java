@@ -1,4 +1,4 @@
-package chapter5;
+package com.jason.chapter5;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
