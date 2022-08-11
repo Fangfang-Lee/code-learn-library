@@ -1,6 +1,4 @@
-package com.jason.chapter6;
-
-import lombok.experimental.var;
+package com.jason.chapter6.interFace;
 
 import java.util.Arrays;
 import java.util.Date;

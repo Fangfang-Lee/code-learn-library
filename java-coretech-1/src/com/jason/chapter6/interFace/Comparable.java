@@ -1,4 +1,4 @@
-package com.jason.chapter6;
+package com.jason.chapter6.interFace;
 
 public interface Comparable<T> {
 
