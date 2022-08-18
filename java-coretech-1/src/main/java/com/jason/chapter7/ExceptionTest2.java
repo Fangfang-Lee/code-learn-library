@@ -1,7 +1,5 @@
 package com.jason.chapter7;
 
-import lombok.extern.java.Log;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
