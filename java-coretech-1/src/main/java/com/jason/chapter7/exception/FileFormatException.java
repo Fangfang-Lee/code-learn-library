@@ -1,4 +1,4 @@
-package com.jason.chapter7;
+package com.jason.chapter7.exception;
 
 import java.io.BufferedReader;
 import java.io.IOException;
