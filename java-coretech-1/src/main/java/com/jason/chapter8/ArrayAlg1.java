@@ -1,6 +1,8 @@
 package com.jason.chapter8;
 
+
 public class ArrayAlg1 {
+
 
   public static <T extends Comparable> T min(T[] a) {
     if (a == null || a.length == 0) {
