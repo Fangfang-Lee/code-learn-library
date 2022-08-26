@@ -3,6 +3,8 @@ package com.jason.chapter8;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
+import java.time.LocalDate;
+
 public class SuperTest {
 
   public static void main(String[] args) {
@@ -41,11 +43,19 @@ public class SuperTest {
 @AllArgsConstructor
 class Person {
   private Integer bonus;
+
+  private String name;
+
+  private LocalDate birthday;
 }
 
 class Manager extends Person {
   public Manager(Integer bonus) {
-    super(bonus);
+    super(bonus, "default", LocalDate.of(2000, 1, 1));
+  }
+
+  public Manager(String name, Integer bonus, Integer year, Integer month, Integer day) {
+    super(bonus, name, LocalDate.of(year, month, day));
   }
 }
 
